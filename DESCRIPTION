@@ -1,0 +1,25 @@
+Package: Nothopack
+Type: Package
+Title: G&Y Forest Simulator for Roble-Rauli-Coigue Stands in Chile
+Version: 1.0.0
+Author: c(
+    person("Salvador", "Gezan", email=forestats.sg@gmail.com", role=c("aut", "cre")),
+    person("Paulo", "Moreno", email=paulo.moreno@ciep.cl", role=c("aut", "cre")),
+    person("Sebastian", "Palmas", email=palmasforest@gmail.com", role="aut")
+Maintainer: Salvador A. Gezan <forestats.sg@gmail.com>
+Description: Nothopack is a Growth and Yield simulator for mixed second-growth forests of 
+    Roble-Rauli-Coigue from southern Chile. This simulator has inventory processing, 
+    stand-level and tree-level simulations with the option of generation of a diameter distribution.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: stats
+SystemRequirements: GNU make
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
