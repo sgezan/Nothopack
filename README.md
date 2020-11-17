@@ -3,7 +3,7 @@ A Growth and Yield Simulator for Nothofagus Second Growth Forests. Version 1.0.
 
 ## Instalation
 
-In order to install **NOTHOPACK* you need:
+In order to install **NOTHOPACK** you need:
 
 ````md
 install.packages("devtools") # if you have not installed "devtools" package
