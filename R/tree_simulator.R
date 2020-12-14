@@ -6,7 +6,7 @@
 #' The model of mortality is the same as whole-stand simulator.
 #' Note, recruitment is currently not implemented.
 #'
-#' @param core.stand An object completely originated from core_module
+#' @param core.tree An object completely originated from core_module
 #'
 #' @return A series of elements and parameters with updated tables. Outputs are the same as input_module
 #'         but these are updated for simulations. The main table is sp.table and tree.list that

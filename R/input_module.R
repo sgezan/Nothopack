@@ -27,7 +27,7 @@
 #'           (required only for type = 'tree' or 'comp') (default = 1)
 #' @param ATHIN Age for thinning (years) (must be between AD and AF)
 #' @param BARp Percentage of total basal area to remove (0-100) (required for ATHIN)
-#' @param QDba Ratio of quadratic diameter of stand before against after thinning
+#' @param QD_ba Ratio of quadratic diameter of stand before against after thinning
 #' @param FT.thin Vector of thinning decision for each tree belonging to the tree.list
 #'           (0:to thin, 1:not to thin)
 #' @param tree.list Tree-list for a plot with columns: ID, SPECIE, DBH, HT, SS, FT

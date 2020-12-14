@@ -88,7 +88,7 @@ stand_simulator <- function(core.stand=NULL){
     NHA991 <- NHA1*(1-PNHAN1)
 
     QD1 <- get_stand(BA=BA1, N=NHA1)   #New quadratic diameter
-    HD1 <- get_site(DOM.SP=DOM.SP, ZONE=ZONE, SI=SI, AD=y)   #New dominant height
+    HD1 <- get_site(DOM.SP=DOM.SP, ZONE=ZONE, SI=SI, AD=y+1)   # Corrected Dec 14,2020
 
   #sp.table is the final stand values (for each year)
   sp.table<-matrix(data=0,nrow=5,ncol=4)

@@ -68,13 +68,13 @@ input_module(
 
 \item{BARp}{Percentage of total basal area to remove (0-100) (required for ATHIN)}
 
+\item{QD_ba}{Ratio of quadratic diameter of stand before against after thinning}
+
 \item{FT.thin}{Vector of thinning decision for each tree belonging to the tree.list
 (0:to thin, 1:not to thin)}
 
 \item{tree.list}{Tree-list for a plot with columns: ID, SPECIE, DBH, HT, SS, FT
 (required only for type = 'tree')}
-
-\item{QDba}{Ratio of quadratic diameter of stand before against after thinning}
 }
 \value{
 List of data input and parameters to be traspassed for downstream modules (mainly core_module)
